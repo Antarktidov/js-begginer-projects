@@ -1,0 +1,17 @@
+body {
+    color: white;
+    background-color: black;
+    font-size: 100px;
+}
+
+.subcalculator-buttons {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+.division {
+    text-align: right;
+    margin-left: auto;
+    display: inline-block;
+    width: 200px;
+}
