@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+.color-output {
+    text-align: center;
+    font-size: 40px;
+}
+
+.color-palette {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color {
+    background-color: gray;
+    --h-v: min(33vh, 33vw);
+    width: var(--h-v);
+    height: var(--h-v);
+    margin: calc( var(--h-v)/10);
+}
