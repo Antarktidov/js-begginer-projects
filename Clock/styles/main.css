@@ -1,0 +1,62 @@
+.theme-dark {
+    --color: white;
+
+    color: var(--color);
+    background-color: black;
+
+    --blue: #05b7d7;
+    --red: #f66262;
+    --green: #91e050;
+}
+.theme-light {
+    --color: black;
+
+    color: var(--color);
+    background-color: white;
+
+    --blue: blue;
+    --red: red;
+    --green: green;
+}
+
+.clock {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.h12, .h11-h1, .h10-h2, .h9-h3, .h8-h4, .h7-h5, .h6 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.h11 {
+    margin-right: 15px;
+}
+.h1 {
+    margin-left: 25px;
+}
+.h10 {
+    margin-right: 40px;
+}
+.h2 {
+    margin-left: 45px;
+}
+.h9 {
+    margin-right: 50px;
+}
+.h3 {
+    margin-left: 60px;
+}
+.h8 {
+    margin-right: 40px;
+}
+.h4 {
+    margin-left: 50px;
+}
+.h7 {
+    margin-right: 15px;
+}
+.h5 {
+    margin-left: 30px;
+}
